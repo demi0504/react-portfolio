@@ -1,6 +1,8 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import Home from "./pages/Home";
+import Contact from "./pages/Contact";
+import Portfolio from "./pages//Portfolio";
 
 function App() {
   return (
