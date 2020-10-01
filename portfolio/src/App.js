@@ -1,8 +1,10 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Home from "./pages/Home";
+import Portfolio from "./pages/Portfolio";
 import Navbar from "./components/Navbar";
 import Wrapper from "./components/Wrapper";
+import Footer from './components/Footer';
 
 
 function App() {
@@ -12,7 +14,9 @@ function App() {
         <Navbar />
         <Wrapper>
           <Route exact path="/" component={Home} />
+          <Route exact path="/portfolio" component={Portfolio} />
         </Wrapper>
+        <Footer />
       </div>
     </Router>
   );

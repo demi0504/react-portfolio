@@ -3,8 +3,8 @@ import "./style.css";
 
 function Footer() {
   return (
-    <footer className="footer">
-      <span>Pupster 2017</span>
+    <footer className="footer py-4 bg-dark text-white-50">
+      <span>Demi</span>
     </footer>
   );
 }

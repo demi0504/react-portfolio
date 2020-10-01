@@ -2,3 +2,26 @@
     min-height: 100%;
     padding-bottom: 100px;
   }
+
+.jumbotron-image {
+    background-position: center;
+    color: white;
+    height: 400px;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+    text-align: center; 
+}
+
+.display-4 {
+    font-family: 'Alegreya Sans SC', sans-serif;
+}
+
+p {
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-size: 20px;
+}
+
+#about-me {
+    text-align: center;
+    color: gray;
+}
