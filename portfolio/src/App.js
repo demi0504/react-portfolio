@@ -1,6 +1,8 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import Home from "./pages/Home";
 import Navbar from "./components/Navbar";
+import Wrapper from "./components/Wrapper";
 
 
 function App() {
@@ -8,6 +10,9 @@ function App() {
     <Router>
       <div>
         <Navbar />
+        <Wrapper>
+          <Route exact path="/" component={Home} />
+        </Wrapper>
       </div>
     </Router>
   );
