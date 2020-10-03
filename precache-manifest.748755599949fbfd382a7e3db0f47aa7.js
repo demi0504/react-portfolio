@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "fea2d8d58dbe5164df9692ba50034cbd",
+    "revision": "3b51f15b0840b0d820fa75d644b55e8e",
     "url": "/react-portfolio/index.html"
   },
   {
-    "revision": "64446b77869c50c4fc02",
+    "revision": "086ac6bc50fc38d0845d",
     "url": "/react-portfolio/static/css/2.d9ad5f5c.chunk.css"
   },
   {
-    "revision": "cad273608bd04543119f",
-    "url": "/react-portfolio/static/css/main.2385e834.chunk.css"
+    "revision": "32bd4c7ff48eb51087f6",
+    "url": "/react-portfolio/static/css/main.05e69f09.chunk.css"
   },
   {
-    "revision": "64446b77869c50c4fc02",
-    "url": "/react-portfolio/static/js/2.2df30369.chunk.js"
+    "revision": "086ac6bc50fc38d0845d",
+    "url": "/react-portfolio/static/js/2.86b997c4.chunk.js"
   },
   {
     "revision": "3453b8997016469371284a28c0e873e2",
-    "url": "/react-portfolio/static/js/2.2df30369.chunk.js.LICENSE.txt"
+    "url": "/react-portfolio/static/js/2.86b997c4.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "cad273608bd04543119f",
-    "url": "/react-portfolio/static/js/main.e86bb9f7.chunk.js"
+    "revision": "32bd4c7ff48eb51087f6",
+    "url": "/react-portfolio/static/js/main.3a21090e.chunk.js"
   },
   {
     "revision": "73a871a578ef5a2aeb49",
@@ -40,6 +40,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-portfolio/static/media/Screenshot (19).aa823098.png"
   },
   {
+    "revision": "dd7f72100b7490b744fa3da601c6a396",
+    "url": "/react-portfolio/static/media/Screenshot (21).dd7f7210.png"
+  },
+  {
     "revision": "1551b5653a904e0f82cb478223e57559",
     "url": "/react-portfolio/static/media/Screenshot (26).1551b565.png"
   },
@@ -54,5 +58,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "c612de58eeca6ba272eb595bee9a0e36",
     "url": "/react-portfolio/static/media/bnbdemi-copy.c612de58.jpg"
+  },
+  {
+    "revision": "adbf62a15d01b49fdd5c9702baa89259",
+    "url": "/react-portfolio/static/media/demi-ripley.adbf62a1.pdf"
   }
 ]);
