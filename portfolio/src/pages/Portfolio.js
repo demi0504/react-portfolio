@@ -12,16 +12,16 @@ function Portfolio() {
             <ul className="noBull">
               <li><i className="fas fa-cocktail"></i></li>
               <li><h1 className="portfolio-heading">Bar Related Accomplishments</h1></li>
-              <li>Find me on <a href="https://bartenderatlas.com/bartenders/demi-ripley/" target="_blank">Bartender Atlas</a></li>
-              <li><a href="https://beveragealcoholresource.com/bar-certificate-holders/" target="_blank">Certified BAR Ready</a></li>
-              <li>Former <a href="https://www.speed-rack.com/about" target="_blank">Speed Rack</a> Competitor</li>
+              <li>Find me on <a href="https://bartenderatlas.com/bartenders/demi-ripley/" target="_blank" rel="noopener noreferrer">Bartender Atlas</a></li>
+              <li><a href="https://beveragealcoholresource.com/bar-certificate-holders/" target="_blank" rel="noopener noreferrer">Certified BAR Ready</a></li>
+              <li>Former <a href="https://www.speed-rack.com/about" target="_blank" rel="noopener noreferrer">Speed Rack</a> Competitor</li>
               <li>2015 Camp Runamok Attendee</li>
-              <li>Learned from Gaz Regan at <a href="http://www.gazregan.com/cocktails-in-the-country-2015/" target="_blank">Cocktails in the Country</a></li>
+              <li>Learned from Gaz Regan at <a href="http://www.gazregan.com/cocktails-in-the-country-2015/" target="_blank" rel="noopener noreferrer">Cocktails in the Country</a></li>
               <li><h3>Bartending in the wild:</h3></li>
-              <li><a href="https://www.wtvr.com/2018/02/14/valentines-day-drinks" target="_blank">Valentine's Day Drinks</a></li>
-              <li><a href="https://wtvr.com/2017/08/25/cheers-its-national-whiskey-sour-day/" target="_blank">National Whiskey Sour Day</a></li>
-              <li><a href="https://www.wtvr.com/2017/07/24/celebrate-national-tequila-day" target="_blank">National Tequila Day</a></li>
-              <li><a href="https://wtvr.com/2017/07/03/these-drinks-will-have-you-howling-for-more/" target="_blank">More Tequila Drinks!!</a></li>
+              <li><a href="https://www.wtvr.com/2018/02/14/valentines-day-drinks" target="_blank" rel="noopener noreferrer">Valentine's Day Drinks</a></li>
+              <li><a href="https://wtvr.com/2017/08/25/cheers-its-national-whiskey-sour-day/" target="_blank" rel="noopener noreferrer">National Whiskey Sour Day</a></li>
+              <li><a href="https://www.wtvr.com/2017/07/24/celebrate-national-tequila-day" target="_blank" rel="noopener noreferrer">National Tequila Day</a></li>
+              <li><a href="https://wtvr.com/2017/07/03/these-drinks-will-have-you-howling-for-more/" target="_blank" rel="noopener noreferrer">More Tequila Drinks!!</a></li>
             </ul>
           </div>
 
