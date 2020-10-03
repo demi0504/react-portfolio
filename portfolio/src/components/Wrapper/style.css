@@ -1,7 +1,4 @@
-.wrapper {
-    min-height: 100%;
-    padding-bottom: 100px;
-  }
+
 /*Homepage styling*/
 .jumbotron-image {
     background-position: center;
@@ -14,6 +11,7 @@
 
 .display-4 {
     font-family: 'Alegreya Sans SC', sans-serif;
+    padding-top: 100px;
 }
 
 p {

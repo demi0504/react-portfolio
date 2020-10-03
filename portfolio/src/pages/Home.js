@@ -1,11 +1,13 @@
 import React, { Component } from 'react'
 
+import bgimage from '../images/bnbdemi-copy.jpg'
+import Container from 'react-bootstrap/Container';
 
 export default class Home extends Component {
   render() {
     return (
       <div>
-        <header className="jumbotron jumbotron-image" style={{backgroundImage: 'url(/images/bnbdemi-copy.jpg)'}}>
+        <header className="jumbotron jumbotron-image" style={{ backgroundImage: `url(${bgimage})` }}>
           <h1 className="display-4">Bartender, Developer, Runner</h1>
           <hr className="my-4" />
           <p>Hi, I'm Demi, thanks for checking out my site.</p>
@@ -24,6 +26,8 @@ export default class Home extends Component {
           </div>
         </main>
       </div>
+      
     )
   }
 }
+
