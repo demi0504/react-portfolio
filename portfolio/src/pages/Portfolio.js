@@ -1,6 +1,8 @@
 import React from "react";
 import Project from "../components/Project";
 
+import resume from '../images/Screenshot (21).png';
+import resumepdf from '../images/demi-ripley.pdf';
 
 function Portfolio() {
   return (
@@ -46,7 +48,18 @@ function Portfolio() {
       </div>
     </div>
     <Project />
-    
+    <div class="container noBull">
+        <head><h1>Resume</h1></head>
+        <div className="row">
+          <div className="col-lg-4 offset-lg-4">
+            <div className="card" style={{ width: 18 + 'rem' }}>
+              <a href={resumepdf} target="_blank">
+                <img className="card-img-top" src={resume} alt="Image of resume"/>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   )
 }
