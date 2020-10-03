@@ -35,6 +35,29 @@ p {
     padding: 20px;
     text-align: center;
 }
+.fa-cocktail {
+    font-size: 30px;
+}
+
+.fa-code {
+    font-size: 30px;
+}
+
+img:hover {
+    opacity: 0.3;
+    transition: .5s ease;
+}
+
+.portfolio-heading {
+    background-color: white;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    
+}
+
+.jumbotron-portfolio {
+    margin-top: 30px;
+    margin-bottom: 0;
+}
 /*Card Styling*/
 .g-card {
     margin: 20px;
@@ -56,4 +79,34 @@ p {
 .g-card-sub-title {
     font-size: 16px;
     margin: 0px;
+}
+/*Contact form styling*/
+.contactSection {
+    background-color: transparent;
+}
+
+.contact {
+    border-radius: 25px;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 20px;
+}
+
+.contactText {
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.jumbotron-fluid {
+    margin-bottom: 0;
+}
+
+#submit-btn {
+    background-color: #708090;
+    border-color: transparent;
+}
+
+#submit-btn:hover {
+    background-color: #696969;
 }
