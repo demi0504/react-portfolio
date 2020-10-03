@@ -2,7 +2,7 @@
     min-height: 100%;
     padding-bottom: 100px;
   }
-
+/*Homepage styling*/
 .jumbotron-image {
     background-position: center;
     color: white;
@@ -25,3 +25,43 @@ p {
     text-align: center;
     color: gray;
 }
+/*Portfolio Styling*/
+.noBull {
+    background-color: white;
+    border-radius: 25px;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    list-style-type: none;
+    margin-top: 30px;
+    padding: 20px;
+    text-align: center;
+}
+/*Card Styling*/
+.g-card {
+    margin: 20px;
+  }
+  
+  
+  .g-card-image {
+    border-radius: 10px;
+    width: 300px;
+    height: 200px;
+    box-shadow: 0px 0px 3px 1px #ccc;
+  }
+  
+  
+  .g-card-info {
+    margin-top: 10px;
+    min-height: 100px;
+  }
+  
+  
+  .g-card-title {
+    font-size: 24px;
+    margin: 0px;
+  }
+  
+  
+  .g-card-sub-title {
+    font-size: 16px;
+    margin: 0px;
+  }

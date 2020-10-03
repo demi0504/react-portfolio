@@ -5,7 +5,7 @@ export default class Home extends Component {
   render() {
     return (
       <div>
-        <header className="jumbotron jumbotron-image">
+        <header className="jumbotron jumbotron-image" style={{backgroundImage: 'url(/images/bnbdemi-copy.jpg)'}}>
           <h1 className="display-4">Bartender, Developer, Runner</h1>
           <hr className="my-4" />
           <p>Hi, I'm Demi, thanks for checking out my site.</p>

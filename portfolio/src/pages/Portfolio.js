@@ -1,16 +1,17 @@
 import React from "react";
+import Project from "../components/Project";
 
 
 function Portfolio() {
   return (
     <div>
-      <div class="jumbotron jumbotron-portfolio">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-6">
-            <ul class="noBull">
-              <li><i class="fas fa-cocktail"></i></li>
-              <li><h1 class="portfolio-heading">Bar Related Accomplishments</h1></li>
+      <div className="jumbotron jumbotron-portfolio">
+      <div className="container">
+        <div className="row">
+          <div className="col-lg-6">
+            <ul className="noBull">
+              <li><i className="fas fa-cocktail"></i></li>
+              <li><h1 className="portfolio-heading">Bar Related Accomplishments</h1></li>
               <li>Find me on <a href="https://bartenderatlas.com/bartenders/demi-ripley/" target="_blank">Bartender Atlas</a></li>
               <li><a href="https://beveragealcoholresource.com/bar-certificate-holders/" target="_blank">Certified BAR Ready</a></li>
               <li>Former <a href="https://www.speed-rack.com/about" target="_blank">Speed Rack</a> Competitor</li>
@@ -24,10 +25,10 @@ function Portfolio() {
             </ul>
           </div>
 
-          <div class="col-lg-6">
-            <ul class="noBull">
-              <li><i class="fas fa-code"></i></li>
-              <li><h1 class="portfolio-heading">Developer</h1></li>
+          <div className="col-lg-6">
+            <ul className="noBull">
+              <li><i className="fas fa-code"></i></li>
+              <li><h1 className="portfolio-heading">Developer</h1></li>
               <li><h3>Languages I Speak:</h3></li>
               <li>CSS</li>
               <li>HTML</li>
@@ -43,8 +44,9 @@ function Portfolio() {
           </div>
         </div>
       </div>
+    </div>
+    <Project />
     
-        
     </div>
   )
 }
