@@ -4,5 +4,19 @@
     position: sticky;
     width: 100%;
   }
-  
-  
+
+.fa {
+  font-size: 20px;
+  margin: 5px 2px
+}
+
+#page-content {
+flex: 1 0 auto;
+}
+
+#sticky-footer {
+flex-shrink: 0;
+position: -webkit-sticky;
+position: sticky;
+width: 100%;
+}
