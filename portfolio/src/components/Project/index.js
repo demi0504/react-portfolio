@@ -5,6 +5,9 @@ import Card from '../Card';
 import qaurantinebar from '../../images/Screenshot (16).png';
 import quiz from '../../images/Screenshot (18).png';
 import weather from '../../images/Screenshot (19).png';
+import burger from '../../images/Screenshot (26).png';
+import movie from '../../images/Screenshot (28).png';
+import notetaker from '../../images/Screenshot (31).png';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 
@@ -36,6 +39,30 @@ class Project extends Component {
                     subTitle: 'Check the Local Weather',
                     imgSrc: weather,
                     link: 'https://demi0504.github.io/weather-app/',
+                    selected: false
+                },
+                {
+                    id: 3,
+                    title: 'Burger App',
+                    subTitle: 'Build and Eat Some Burgers',
+                    imgSrc: burger,
+                    link: 'https://enigmatic-fortress-55695.herokuapp.com/',
+                    selected: false
+                },
+                {
+                    id: 4,
+                    title: 'Popcorn Bucket List',
+                    subTitle: 'Movie Watchlist App',
+                    imgSrc: movie,
+                    link: 'https://still-reef-39883.herokuapp.com/',
+                    selected: false
+                },
+                {
+                    id: 5,
+                    title: 'Note Taker',
+                    subTitle: 'Taker of Notes',
+                    imgSrc: notetaker,
+                    link: 'https://github.com/demi0504/note-taker',
                     selected: false
                 },
             ]
